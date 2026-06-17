@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sambhav Singh — Creative Video Editor, Graphic Designer & AI Content Specialist. Premium Cinematic & Editorial Portfolio.">
+  <meta name="keywords" content="Sambhav Singh, Video Editor, Graphic Designer, AI Content, Cinematic, Editorial, Gurugram, India">
+  <meta name="author" content="Sambhav Singh">
+  
+  <!-- OpenGraph Metadata -->
+  <meta property="og:title" content="Sambhav Singh | Cinematic Video Editor & AI Content Specialist">
+  <meta property="og:description" content="Blending classic post-production workflows with generative AI tools. Premium video editing and creative direction.">
+  <meta property="og:image" content="assets/profile.jpg">
+  <meta property="og:type" content="website">
+
+  <title>Sambhav Singh | Creative Director, Video Editor & AI Specialist</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎞️</text></svg>">
+</head>
+<body>
+  <!-- Blurred Sunset Background Image Layer -->
+  <div class="bg-image-wrapper"></div>
+
+  <!-- Premium Cinematic Mouse Follower -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-outline" id="cursorOutline"></div>
+
+  <!-- Ambient Cinematic Background Glow -->
+  <div class="bg-glow">
+    <div class="orb orb-gold-top"></div>
+    <div class="orb orb-gold-bottom"></div>
+  </div>
+
+  <!-- Interactive Cursor Glow Background -->
+  <div class="cursor-glow-bg" id="cursorGlowBg"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" id="navLogo">
+        SAMBHAV SINGH <span class="logo-sup">STUDIO</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Milestones</a></li>
+        <li><a href="#projects" class="nav-link">Works</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta" id="navCta">Inquire</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-content">
+      <div class="hero-header-text">
+        <div class="hero-badge reveal">
+          <span class="badge-dot animate-pulse"></span>
+          <span>✦ Cinematic Arts & Generative AI</span>
+        </div>
+        <h1 class="hero-title reveal">
+          Where Pacing Meets <br><span class="serif-italic">Cinematic Vision</span>
+        </h1>
+        <p class="hero-subtitle reveal">
+          A design space blending traditional video editing workflows with advanced neural generation tools. Crafting visual assets for digital campaigns, UGC, and commercial ad strategies.
+        </p>
+        <div class="hero-buttons reveal">
+          <a href="#projects" class="btn-primary" id="btnExplore">
+            <span>View Showreels</span>
+            <span class="icon">➔</span>
+          </a>
+          <a href="#contact" class="btn-secondary" id="btnContact">
+            <span>Discuss Project</span>
+            <span class="icon">✉</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Centered Interactive Lens Scope Showcase -->
+      <div class="hero-theater reveal">
+        <div class="lens-scope-container">
+          <!-- Outer Rotating Lens Ring -->
+          <div class="lens-ring-outer"></div>
+          <div class="lens-ring-mid"></div>
+          <!-- Pulsing Background Halo -->
+          <div class="lens-glow-halo"></div>
+          <!-- Inner Scope -->
+          <div class="lens-glass">
+            <img src="assets/profile.png?v=2" alt="Sambhav Singh Portrait" class="lens-preview-image" id="lensPlayTrigger">
+            <div class="lens-reflection"></div>
+          </div>
+          <!-- Floating Tool Logos around the circle -->
+          <div class="floating-logos-orbit">
+            <div class="orbiting-logo logo-premiere">
+              <img src="assets/logos/PREMIERE PRO.png" alt="Premiere Pro">
+              <span class="logo-name">Premiere Pro</span>
+            </div>
+            <div class="orbiting-logo logo-capcut">
+              <img src="assets/logos/CAPCUT.png" alt="CapCut">
+              <span class="logo-name">CapCut</span>
+            </div>
+            <div class="orbiting-logo logo-photoshop">
+              <img src="assets/logos/CANVA.png" alt="Canva">
+              <span class="logo-name">Canva</span>
+            </div>
+            <div class="orbiting-logo logo-chatgpt">
+              <img src="assets/logos/CHATGPT.png" alt="ChatGPT">
+              <span class="logo-name">ChatGPT</span>
+            </div>
+            <div class="orbiting-logo logo-claude">
+              <img src="assets/logos/CLAUDE.png" alt="Claude">
+              <span class="logo-name">Claude</span>
+            </div>
+            <div class="orbiting-logo logo-gemini">
+              <img src="assets/logos/GEMINI.png" alt="Gemini">
+              <span class="logo-name">Gemini</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Moving Film Strip Marquee below Hero -->
+    <div class="film-strip-marquee">
+      <div class="film-track">
+        <span class="film-clip">✦ UGC CREATIVES</span>
+        <span class="film-clip">✦ INSTAGRAM REELS</span>
+        <span class="film-clip">✦ AMAZON A+</span>
+        <span class="film-clip">✦ COMMERCIAL ADS</span>
+        <span class="film-clip">✦ AI GENERATION</span>
+        <span class="film-clip">✦ SOCIAL STRATEGY</span>
+        <!-- Duplicated for seamless loop -->
+        <span class="film-clip">✦ UGC CREATIVES</span>
+        <span class="film-clip">✦ INSTAGRAM REELS</span>
+        <span class="film-clip">✦ AMAZON A+</span>
+        <span class="film-clip">✦ COMMERCIAL ADS</span>
+        <span class="film-clip">✦ AI GENERATION</span>
+        <span class="film-clip">✦ SOCIAL STRATEGY</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENTO GRID SECTION (ABOUT & CAPABILITIES) -->
+  <section class="bento-section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">PROFILE & CORE</div>
+        <h2 class="section-title">The <span class="serif-italic">Bento Matrix</span></h2>
+        <p class="section-subtitle">An overview of my credentials, software skills, and AI engineering stack.</p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Card 1: Main Bio (Spans 2 columns on desktop) -->
+        <div class="bento-card bio-card col-span-2 reveal">
+          <div class="bento-card-bg"></div>
+          <div class="bio-content">
+            <div class="bio-img-wrapper">
+              <img src="assets/profile.png?v=2" alt="Sambhav Singh Portrait" class="bio-avatar">
+            </div>
+            <div class="bio-text">
+              <h3 class="serif-italic">Sambhav Singh</h3>
+              <p class="role-title">Video Editor, Designer & AI Specialist</p>
+              <p class="description">
+                I am a forward-thinking Video Editor and Graphic Designer specializing in AI-driven content creation. Adept at merging traditional editing workflows with cutting-edge AI video generation and animation technologies.
+              </p>
+              <p class="description">
+                I have a proven track record in managing dynamic creative pipelines from conceptualization to final post-production for brands and entertainment centers, producing high-converting social media ads, UGC content, and micro-dramas.
+              </p>
+              <div class="bio-meta">
+                <span class="bio-meta-item">📍 Gurugram, India</span>
+                <span class="bio-meta-item">🎓 Caba Innovatives, Delhi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Editorial Stats Count (Spans 1 column) -->
+        <div class="bento-card stats-card reveal">
+          <div class="bento-card-bg"></div>
+          <div class="stats-content">
+            <h4 class="card-title">Production Stats</h4>
+            <div class="stat-entry">
+              <span class="stat-num" data-target="2">0<span class="stat-plus">+</span></span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-entry">
+              <span class="stat-num" data-target="100">0<span class="stat-plus">+</span></span>
+              <span class="stat-label">Completed Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Core Expertise (Spans 1 column) -->
+        <div class="bento-card expertise-card reveal">
+          <div class="bento-card-bg"></div>
+          <div class="expertise-content">
+            <h4 class="card-title">Core Expertise</h4>
+            <div class="tag-cloud">
+              <span class="exp-tag">Graphic Design</span>
+              <span class="exp-tag">Video Editing</span>
+              <span class="exp-tag">AI Animation</span>
+              <span class="exp-tag">AI Podcasts</span>
+              <span class="exp-tag">Instagram Ads</span>
+              <span class="exp-tag">UGC Videos</span>
+              <span class="exp-tag">Long-form Videos</span>
+              <span class="exp-tag">Social Media Handling</span>
+              <span class="exp-tag">Creative Direction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Software Stack (Spans 1 column) -->
+        <div class="bento-card software-card reveal">
+          <div class="bento-card-bg"></div>
+          <div class="software-content">
+            <h4 class="card-title">Editing & Design Arsenal</h4>
+            <div class="software-rows">
+              <div class="soft-row">
+                <div class="soft-name-wrapper">
+                  <img src="assets/logos/PREMIERE PRO.png" alt="Adobe Premiere Pro Logo" class="soft-logo">
+                  <span class="soft-name">Adobe Premiere Pro</span>
+                </div>
+                <span class="soft-level">Expert</span>
+              </div>
+              <div class="soft-row">
+                <div class="soft-name-wrapper">
+                  <img src="assets/logos/CAPCUT.png" alt="CapCut Pro Studio Logo" class="soft-logo">
+                  <span class="soft-name">CapCut Pro Studio</span>
+                </div>
+                <span class="soft-level">Expert</span>
+              </div>
+              <div class="soft-row">
+                <div class="soft-name-wrapper">
+                  <img src="assets/logos/PHOTOSHOP.png" alt="Adobe Photoshop Logo" class="soft-logo">
+                  <span class="soft-name">Adobe Photoshop</span>
+                </div>
+                <span class="soft-level">Advanced</span>
+              </div>
+              <div class="soft-row">
+                <div class="soft-name-wrapper">
+                  <img src="assets/logos/AFTER EFFECTS.png" alt="After Effects Logo" class="soft-logo">
+                  <span class="soft-name">After Effects (Basic)</span>
+                </div>
+                <span class="soft-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: AI Engine Connections (Spans 1 column) -->
+        <div class="bento-card ai-card reveal">
+          <div class="bento-card-bg"></div>
+          <div class="ai-content">
+            <h4 class="card-title">AI Engine Pipeline</h4>
+            <div class="ai-entries">
+              <div class="ai-row">
+                <div class="ai-label-wrapper">
+                  <span class="pulse-dot green"></span>
+                  <span class="ai-label">OpenAI Sora / Runway</span>
+                </div>
+                <span class="ai-status">Video Gen</span>
+              </div>
+              <div class="ai-row">
+                <div class="ai-label-wrapper">
+                  <span class="pulse-dot green"></span>
+                  <span class="ai-label">Kling AI / Veo 3</span>
+                </div>
+                <span class="ai-status">High Fidelity</span>
+              </div>
+              <div class="ai-row">
+                <div class="ai-label-wrapper">
+                  <span class="pulse-dot green"></span>
+                  <span class="ai-label">ElevenLabs / Veed</span>
+                </div>
+                <span class="ai-status">AI Voices & Subs</span>
+              </div>
+              <div class="ai-row">
+                <div class="ai-label-wrapper">
+                  <span class="pulse-dot green"></span>
+                  <span class="ai-label">ChatGPT / Claude</span>
+                </div>
+                <span class="ai-status">Copywriting</span>
+              </div>
+              <div class="ai-row">
+                <div class="ai-label-wrapper">
+                  <span class="pulse-dot green"></span>
+                  <span class="ai-label">Seedance / HeyGen</span>
+                </div>
+                <span class="ai-status">Avatars</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL EXPERIENCE TIMELINE -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">CAREER PROGRESSION</div>
+        <h2 class="section-title">Professional <span class="serif-italic">Milestones</span></h2>
+        <p class="section-subtitle">Real-world experience managing visual content pipelines and e-commerce campaigns.</p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Item 1: BOTFit -->
+        <div class="timeline-card-v3 reveal">
+          <div class="card-header-v3">
+            <span class="milestone-date">Sept 2025 – Present</span>
+            <h3 class="role-heading">AI Content Specialist</h3>
+            <h4 class="company-heading">BOTFit Entertainment Centre</h4>
+          </div>
+          <div class="card-body-v3">
+            <ul class="timeline-bullet-list">
+              <li><strong>AI Content Integration:</strong> Direct and generate compelling AI-driven animation videos and innovative AI podcast formats.</li>
+              <li><strong>Commercial Advertising:</strong> Produce, edit, and optimize high-converting BOTFit ad videos and AI creative campaigns.</li>
+              <li><strong>Social Media Strategy:</strong> Edit and strategize User-Generated Content (UGC), micro-dramas, and viral social media creatives tailored for maximum audience retention.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Item 2: Mellow India -->
+        <div class="timeline-card-v3 reveal">
+          <div class="card-header-v3">
+            <span class="milestone-date">Sept 2024 – Sept 2025</span>
+            <h3 class="role-heading">Creative Designer & Video Editor</h3>
+            <h4 class="company-heading">Mellow India</h4>
+          </div>
+          <div class="card-body-v3">
+            <ul class="timeline-bullet-list">
+              <li><strong>E-Commerce Creatives:</strong> Designed comprehensive Amazon A+ creatives, product listings, and digital promotional materials to boost conversion rates.</li>
+              <li><strong>Production & Photography:</strong> Executed professional product shoots to enhance visual branding and presentation.</li>
+              <li><strong>Instagram Marketing:</strong> Developed, filmed, and edited engaging Instagram creatives and short-form video content specifically tailored for platform growth.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section class="portfolio-section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">WORKS ARCHIVE</div>
+        <h2 class="section-title">Selected <span class="serif-italic">Productions</span></h2>
+        <p class="section-subtitle">A curated collection of commercial skits, UGC social reels, and high-fidelity AI imagery.</p>
+      </div>
+
+      <!-- Main Category Tabs -->
+      <div class="works-tabs-container reveal">
+        <button class="works-tab-btn active" data-tab="VIDEO" id="tabVideo">
+          Video Productions <span class="tab-count" id="countVideo">(0)</span>
+        </button>
+        <button class="works-tab-btn" data-tab="GRAPHIC" id="tabGraphic">
+          Graphic Designs <span class="tab-count" id="countGraphic">(0)</span>
+        </button>
+      </div>
+
+      <!-- Live Search Bar -->
+      <div class="works-search-wrapper reveal">
+        <span class="works-search-icon">🔍</span>
+        <input type="text" id="worksSearch" class="works-search-input" placeholder="Search projects by title, subcategory, or tools...">
+      </div>
+
+      <!-- Dynamic Subcategory Filters (Pills) -->
+      <div class="portfolio-filters-editorial reveal" id="subcategoryFilters">
+        <!-- Generated by JS based on active tab -->
+      </div>
+
+      <!-- Scroll Navigation Arrows -->
+      <div class="works-scroll-nav reveal">
+        <button class="works-nav-arrow" id="btnScrollLeft" aria-label="Scroll Left">←</button>
+        <button class="works-nav-arrow" id="btnScrollRight" aria-label="Scroll Right">→</button>
+      </div>
+
+      <!-- Dynamic Portfolio 3D Carousel -->
+      <div class="portfolio-carousel-3d-wrapper">
+        <div class="portfolio-carousel-3d" id="portfolioGrid">
+          <!-- Populated dynamically by script.js -->
+        </div>
+      </div>
+
+      <!-- External Drive Links -->
+      <div class="works-load-more-container reveal" id="loadMoreContainer">
+        <a href="https://drive.google.com/drive/folders/1PFnd7sj6sq0KB8Sot-hnIzWH6p-oXdeB" target="_blank" class="btn-archive-link" id="driveArchiveLink">
+          Explore Full Video Directory on Google Drive ➔
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MEDIA MODAL -->
+  <div class="lightbox-modal-gold" id="lightboxModal">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close Player">×</button>
+    <button class="lightbox-arrow prev" id="lightboxPrev" aria-label="Previous Project">‹</button>
+    <button class="lightbox-arrow next" id="lightboxNext" aria-label="Next Project">›</button>
+    <div class="lightbox-content" id="lightboxContent">
+      <!-- Video Container -->
+      <div class="iframe-container" id="lightboxVideoContainer">
+        <iframe src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="lightboxIframe"></iframe>
+      </div>
+      <!-- Image Container -->
+      <div class="image-container-gold" id="lightboxImageContainer" style="display: none;">
+        <img src="" alt="Enlarged graphic design work" id="lightboxImage">
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS SLIDER SECTION -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">TESTIMONIALS</div>
+        <h2 class="section-title">Client <span class="serif-italic">Feedback</span></h2>
+        <p class="section-subtitle">Collaborators evaluate Sambhav's capabilities in film direction, advertising, and workflow.</p>
+      </div>
+
+      <div class="testimonial-slider-container reveal">
+        <div class="testimonial-slider" id="testimonialSlider">
+          <!-- Slide 1 -->
+          <div class="testimonial-card">
+            <div class="quote-symbol">“</div>
+            <p class="testimonial-text">
+              "Sambhav brought our brand's vision to life with stunning AI-driven videos. His ability to blend traditional editing with cutting-edge AI tools is truly remarkable. He delivered high-performing ad concepts that spiked our CTR."
+            </p>
+            <div class="testimonial-user">
+              <div class="avatar-letter bg-gold">BF</div>
+              <div class="user-meta">
+                <h5>BoTFit Team</h5>
+                <p>Entertainment Centre</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-card">
+            <div class="quote-symbol">“</div>
+            <p class="testimonial-text">
+              "His e-commerce creatives boosted our conversion rates significantly. The Amazon A+ content was professional, polished, and exactly what we needed for our product line. His production photography is spectacular."
+            </p>
+            <div class="testimonial-user">
+              <div class="avatar-letter bg-gold">MI</div>
+              <div class="user-meta">
+                <h5>Mellow India</h5>
+                <p>E-Commerce Brand</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-card">
+            <div class="quote-symbol">“</div>
+            <p class="testimonial-text">
+              "A creative powerhouse! Sambhav's Instagram content strategy and video editing skills helped us grow our audience organically. Extremely fast turnaround and exceptional eye for transitions, pacing, and visual storytelling."
+            </p>
+            <div class="testimonial-user">
+              <div class="avatar-letter bg-gold">RC</div>
+              <div class="user-meta">
+                <h5>Rahul Chopra</h5>
+                <p>Freelance Client</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-arrow prev" id="sliderPrev" aria-label="Previous Slide">←</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-arrow next" id="sliderNext" aria-label="Next Slide">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT INTAKE FORM -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">INQUIRIES</div>
+        <h2 class="section-title">Initiate a <span class="serif-italic">Collaboration</span></h2>
+        <p class="section-subtitle">Interested in boosting conversion rates, executing video shoots, or generating high-quality AI visual elements?</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info Column -->
+        <div class="contact-info-col reveal">
+          <div class="avatar-card">
+            <img src="assets/avatar-contact.png?v=2" alt="Sambhav Avatar" class="contact-avatar">
+            <div class="avatar-details">
+              <h4>Sambhav Singh</h4>
+              <p>Creative Video & AI Producer</p>
+            </div>
+          </div>
+
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <span class="detail-label">Contact No</span>
+              <a href="tel:8239582070" class="detail-value">8239582070</a>
+            </div>
+            <div class="contact-detail-item">
+              <span class="detail-label">Email</span>
+              <a href="mailto:sambhavs179@gmail.com" class="detail-value">sambhavs179@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="social-networks">
+            <a href="#" class="social-icon" title="Instagram">📸</a>
+            <a href="#" class="social-icon" title="LinkedIn">💼</a>
+            <a href="#" class="social-icon" title="YouTube">▶️</a>
+            <a href="#" class="social-icon" title="Behance">🎨</a>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact-form-col reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="Enter email address">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="projectType">Inquiry Subject</label>
+              <select id="projectType">
+                <option value="video-editing">Video Editing / Commercial Ad campaign</option>
+                <option value="ai-video">AI Content Generation / Motion Animation</option>
+                <option value="graphic-design">Graphic Designing / Packaging Layouts</option>
+                <option value="ecommerce">Amazon Creatives & Photography</option>
+                <option value="other">General Collaboration</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Description / Message</label>
+              <textarea id="message" required placeholder="Outline target outcomes, timelines, and budgets..." rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit" id="btnSubmit">
+              <span>Send Message</span>
+              <span class="icon">➔</span>
+            </button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#hero" class="footer-logo">SAMBHAV SINGH <span class="logo-sup">STUDIO</span></a>
+        <p class="footer-description">
+          Fusing traditional film aesthetics with contemporary neural networks. Creating the future of commercial media.
+        </p>
+      </div>
+      <div class="footer-right">
+        <p class="copyright">
+          © 2026 Sambhav Singh. All Rights Reserved. Crafted for visual Excellence.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
